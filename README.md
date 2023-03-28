@@ -20,6 +20,11 @@ Complete the following steps:
 
 * Use otu_labels as the hovertext for the chart.
 
+### Results
+
+![Bar Chart](./Images/Top_10_OTUs.png)
+
+
 3. Create a bubble chart that displays each sample.
 
 * Use otu_ids for the x values.
@@ -32,6 +37,10 @@ Complete the following steps:
 
 * Use otu_labels for the text values.
 
+### Results
+
+![Bubble Chart](./Images/bacteria_per_sample.png)
+
 4. Display the sample metadata, i.e., an individual's demographic information.
 
 5. Display each key-value pair from the metadata JSON object somewhere on the page.
@@ -39,6 +48,26 @@ Complete the following steps:
 6. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
 
 7. Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file.
+
+## Advanced Challenge Assignment (Optional with no extra points earning)
+
+The following task is advanced and therefore optional.
+
+Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/Links to an external site. to plot the weekly washing frequency of the individual.
+
+You will need to modify the example gauge code to account for values ranging from 0 through 9.
+
+Update the chart whenever a new sample is selected.
+
+### Results 
+
+![Gauge Chart](./Images/belly_button_washing.png)
+
+Access my dashboard using this link https://elisjardim.github.io/belly-button-challenge/
+
+### Results
+
+![Dashboard](./Images/dashboard.png)
 
 ## References
 
